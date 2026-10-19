@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KAAS SOLUTIONS Uganda | Smart Home Automation &amp; Security</title>
+  <meta name="description" content="Discover smart home automation, CCTV, networking, electric fences, automatic gates, intercoms, biometrics, and integrated security solutions from KAAS SOLUTIONS Uganda.">
+  <meta name="theme-color" content="#101820">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="KAAS SOLUTIONS Uganda | Smart Home Automation &amp; Security">
+  <meta property="og:description" content="Smart Technology. Safer Spaces. Home automation, CCTV, networking, electric fences, gates, intercoms, biometric access control, and integrated security solutions.">
+  <meta property="og:image" content="assets/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preload" as="image" href="assets/slider1.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('kaas-theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+      } catch (e) { /* storage unavailable — keep default */ }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ======================= ANNOUNCEMENT ======================= -->
+  <div class="announcement" role="note">
+    <p>Smart Technology. Safer Spaces. <span class="announcement__sep" aria-hidden="true">—</span> <span>KAAS SOLUTIONS 🇺🇬</span></p>
+  </div>
+
+  <!-- ======================= HEADER ======================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="site-header__inner container">
+      <a class="wordmark" href="#home" aria-label="KAAS SOLUTIONS — home">
+        <img class="wordmark__mark" src="assets/logo.png" alt="KAAS SOLUTIONS logo" width="48" height="48" decoding="async">
+        <span class="wordmark__texts">
+          <span class="wordmark__name">KAAS SOLUTIONS</span>
+          <span class="wordmark__tag">🇺🇬 Smart Technology • Safer Spaces</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="primaryNav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About Us</a></li>
+          <li><a class="nav__link" href="#services">Services</a></li>
+          <li><a class="nav__link" href="#solutions">Solutions</a></li>
+          <li><a class="nav__link" href="#projects">Projects</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__actions nav__actions--mobile">
+          <a class="btn btn--primary" href="#contact">Get a Quote</a>
+        </div>
+      </nav>
+
+      <div class="site-header__actions">
+        <button class="icon-btn theme-toggle" id="themeToggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+          <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <circle cx="12" cy="12" r="4.2"></circle>
+            <path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M18.8 5.2l-1.6 1.6M6.8 17.2l-1.6 1.6"></path>
+          </svg>
+          <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.6 8.6 0 1 0 11.1 11.1z"></path>
+          </svg>
+        </button>
+
+        <a class="icon-btn header-wa" href="#contact" aria-label="Get a Quote">
+          <svg viewBox="0 0 24 24" aria-hidden="true" width="19" height="19" fill="currentColor">
+            <path d="M12 2a10 10 0 0 0-3.6 19.3c-.1-.8-.2-2 .1-2.9l1.2-5s-.3-.6-.3-1.5c0-1.4.8-2.5 1.9-2.5.9 0 1.3.7 1.3 1.5 0 .9-.6 2.3-.9 3.5-.3 1.1.5 2 1.6 2 1.9 0 3.3-2 3.3-4.9 0-2.6-1.8-4.4-4.4-4.4-3 0-4.8 2.2-4.8 4.6 0 .9.3 1.8.8 2.3.1.1.1.2.1.3l-.3 1c0 .2-.2.3-.4.2-1.4-.7-2.3-2.8-2.3-4.4 0-3.6 2.6-6.9 7.5-6.9 3.9 0 7 2.8 7 6.6 0 3.9-2.5 7-5.9 7-1.2 0-2.3-.6-2.6-1.3l-.7 2.7c-.3 1-1 2.3-1.5 3.1A10 10 0 1 0 12 2z"></path>
+          </svg>
+        </a>
+        <a class="btn btn--primary" href="#contact">Get a Quote</a>
+
+        <button class="icon-btn menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+          <span class="menu-toggle__bar" aria-hidden="true"></span>
+          <span class="menu-toggle__bar" aria-hidden="true"></span>
+          <span class="menu-toggle__bar" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ======================= HERO ======================= -->
+    <section class="hero" id="home" aria-label="Featured styles">
+      <div class="hero__slides" id="heroSlides">
+        <div class="hero__slide hero__slide--one is-active" role="img" aria-label="Modern smart home with integrated security"></div>
+      </div>
+      <div class="hero__veil" aria-hidden="true"></div>
+
+      <div class="hero__content container">
+        <p class="eyebrow hero__eyebrow">SMART HOME &amp; SECURITY SOLUTIONS</p>
+        <h1 class="hero__title">Smart Technology.<br>Safer Spaces.</h1>
+        <p class="hero__lede">Transform your home or business with intelligent automation, reliable security systems, and seamlessly integrated technology solutions from KAAS SOLUTIONS Uganda.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#services">Explore Our Services</a>
+          <a class="btn btn--outline" href="#contact">Request a Quote</a>
+        </div>
+      </div>
+
+
+      <p class="visually-hidden" id="heroStatus" role="status" aria-live="polite"></p>
+    </section>
+
+    <!-- ======================= VALUE PROPOSITION ======================= -->
+    <section class="section categories" id="about" aria-labelledby="categoriesTitle">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Our Promise</p>
+          <h2 class="section-title" id="categoriesTitle">Technology That Works Together</h2>
+          <p class="section-lede">From smart home automation to integrated security and networking, KAAS SOLUTIONS helps bring your property's technology together through practical, connected solutions.</p>
+        </header>
+
+        <div class="categories__grid">
+          <article class="category-card reveal">
+            <div class="category-card__media">
+              <img src="assets/img3.jpg" alt="Smart home automation control panel" width="1080" height="1920" loading="lazy" decoding="async">
+            </div>
+            <div class="category-card__body">
+              <h3 class="category-card__title">Smart Integration</h3>
+              <p class="category-card__text">Connect compatible systems for simpler everyday control and a more seamless living experience.</p>
+              <a class="text-link" href="#solutions">Explore Solutions</a>
+            </div>
+          </article>
+
+          <article class="category-card reveal">
+            <div class="category-card__media">
+              <img src="assets/img4.jpg" alt="Security camera installation and surveillance system" width="720" height="1280" loading="lazy" decoding="async">
+            </div>
+            <div class="category-card__body">
+              <h3 class="category-card__title">Security &amp; Protection</h3>
+              <p class="category-card__text">Explore practical solutions designed to help protect property and manage access effectively.</p>
+              <a class="text-link" href="#services">Our Services</a>
+            </div>
+          </article>
+
+          <article class="category-card reveal">
+            <div class="category-card__media">
+              <img src="assets/img6.jpg" alt="Professional networking and structured cabling" width="720" height="1280" loading="lazy" decoding="async">
+            </div>
+            <div class="category-card__body">
+              <h3 class="category-card__title">Reliable Connectivity</h3>
+              <p class="category-card__text">Build a dependable network foundation for all your connected devices and systems.</p>
+              <a class="text-link" href="#contact">Get Connected</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= SERVICES ======================= -->
+    <section class="section collection" id="services" aria-labelledby="collectionTitle">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Our Solutions</p>
+          <h2 class="section-title" id="collectionTitle">Technology Solutions for Every Space</h2>
+          <p class="section-lede">Explore technology solutions designed for homes, offices, and commercial properties across Uganda.</p>
+        </header>
+
+        <ul class="product-grid" id="productGrid">
+          <li class="product reveal">
+            <figure class="product__media">
+              <img src="assets/img1.jpg" alt="Smart home automation and lighting control" width="300" height="300" loading="lazy" decoding="async">
+            </figure>
+            <div class="product__body">
+              <p class="product__cat">Smart Living</p>
+              <h3 class="product__name">Home Automation</h3>
+              <p class="category-card__text" style="margin-bottom:1rem; color:var(--ink-soft);">Smart home systems, intelligent lighting, smart switches and connected devices for convenient control.</p>
+              <a class="product__cta" href="#contact">Enquire Now</a>
+            </div>
+          </li>
+
+          <li class="product reveal">
+            <figure class="product__media">
+              <img src="assets/img2.jpg" alt="System integration for security and automation" width="300" height="300" loading="lazy" decoding="async">
+            </figure>
+            <div class="product__body">
+              <p class="product__cat">Integration</p>
+              <h3 class="product__name">System Integration</h3>
+              <p class="category-card__text" style="margin-bottom:1rem; color:var(--ink-soft);">Centralized control solutions that bring compatible security and automation systems together.</p>
+              <a class="product__cta" href="#contact">Enquire Now</a>
+            </div>
+          </li>
+
+          <li class="product reveal">
+            <figure class="product__media">
+              <img src="assets/img4.jpg" alt="CCTV installation and security cameras" width="300" height="300" loading="lazy" decoding="async">
+            </figure>
+            <div class="product__body">
+              <p class="product__cat">Surveillance</p>
+              <h3 class="product__name">CCTV &amp; Surveillance</h3>
+              <p class="category-card__text" style="margin-bottom:1rem; color:var(--ink-soft);">Professional CCTV installation, security camera systems and remote monitoring solutions.</p>
+              <a class="product__cta" href="#contact">Enquire Now</a>
+            </div>
+          </li>
+
+          <li class="product reveal">
+            <figure class="product__media">
+              <img src="assets/img6.jpg" alt="Network installation and Wi-Fi solutions" width="300" height="300" loading="lazy" decoding="async">
+            </figure>
+            <div class="product__body">
+              <p class="product__cat">Connectivity</p>
+              <h3 class="product__name">Networking Solutions</h3>
+              <p class="category-card__text" style="margin-bottom:1rem; color:var(--ink-soft);">Network installation, Wi-Fi, structured cabling and reliable infrastructure for homes and businesses.</p>
+              <a class="product__cta" href="#contact">Enquire Now</a>
+            </div>
+          </li>
+
+          <li class="product reveal">
+            <figure class="product__media">
+              <img src="assets/img7.jpg" alt="Electric fence installation for perimeter security" width="300" height="300" loading="lazy" decoding="async">
+            </figure>
+            <div class="product__body">
+              <p class="product__cat">Perimeter</p>
+              <h3 class="product__name">Electric Fences</h3>
+              <p class="category-card__text" style="margin-bottom:1rem; color:var(--ink-soft);">Electric fence installation and perimeter security solutions with system integration where compatible.</p>
+              <a class="product__cta" href="#contact">Enquire Now</a>
+            </div>
+          </li>
+
+          <li class="product reveal">
+            <figure class="product__media">
+              <img src="assets/o.jpg" alt="Automatic gates and intercom systems" width="300" height="300" loading="lazy" decoding="async">
+            </figure>
+            <div class="product__body">
+              <p class="product__cat">Access</p>
+              <h3 class="product__name">Automatic Gates &amp; Intercoms</h3>
+              <p class="category-card__text" style="margin-bottom:1rem; color:var(--ink-soft);">Automatic gate systems, gate access control, video and audio intercoms for secure entry.</p>
+              <a class="product__cta" href="#contact">Enquire Now</a>
+            </div>
+          </li>
+
+          <li class="product reveal">
+            <figure class="product__media">
+              <img src="assets/images (3).jpg" alt="Biometric access control and fingerprint systems" width="300" height="300" loading="lazy" decoding="async">
+            </figure>
+            <div class="product__body">
+              <p class="product__cat">Biometrics</p>
+              <h3 class="product__name">Biometric Access Control</h3>
+              <p class="category-card__text" style="margin-bottom:1rem; color:var(--ink-soft);">Fingerprint systems, biometric attendance and controlled access for offices and premises.</p>
+              <a class="product__cta" href="#contact">Enquire Now</a>
+            </div>
+          </li>
+
+          <li class="product reveal">
+            <figure class="product__media">
+              <img src="assets/images (1).jpg" alt="Burglar alarm and intruder detection systems" width="300" height="300" loading="lazy" decoding="async">
+            </figure>
+            <div class="product__body">
+              <p class="product__cat">Intrusion</p>
+              <h3 class="product__name">Burglar Alarms</h3>
+              <p class="category-card__text" style="margin-bottom:1rem; color:var(--ink-soft);">Intruder detection systems, alarm installation and integrated protection solutions.</p>
+              <a class="product__cta" href="#contact">Enquire Now</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ======================= ABOUT US ======================= -->
+    <section class="section editorial" aria-labelledby="editorialTitle">
+      <div class="container editorial__grid">
+        <div class="editorial__media reveal">
+          <img src="assets/img.jpg" alt="Smart home technology and security systems" width="360" height="640" loading="lazy" decoding="async">
+        </div>
+        <div class="editorial__copy reveal">
+          <p class="eyebrow">Connecting Technology with Everyday Life</p>
+          <h2 class="section-title" id="editorialTitle">KAAS SOLUTIONS</h2>
+          <p>KAAS SOLUTIONS focuses on home automation, security systems, networking, and technology integration. Our goal is to help customers explore practical solutions that make their spaces more connected, convenient, and secure.</p>
+          <p>From residential homes to offices and commercial properties, we work with you to identify the right integrated solutions for your needs.</p>
+          <a class="btn btn--primary" href="#contact">Talk to Our Team</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= FEATURED SOLUTIONS ======================= -->
+    <section class="section inspire" id="solutions" aria-labelledby="inspireTitle">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">What We Offer</p>
+          <h2 class="section-title" id="inspireTitle">Integrated Solutions</h2>
+        </header>
+
+        <div class="inspire__grid">
+          <article class="inspire-card reveal">
+            <div class="inspire-card__media">
+              <img src="assets/img1.jpg" alt="Smart home and connected living" width="447" height="447" loading="lazy" decoding="async">
+            </div>
+            <h3 class="inspire-card__title">Smart Living</h3>
+            <p class="inspire-card__text">Connected home automation and convenient control of compatible systems.</p>
+          </article>
+
+          <article class="inspire-card reveal">
+            <div class="inspire-card__media">
+              <img src="assets/img4.jpg" alt="Integrated security systems" width="300" height="300" loading="lazy" decoding="async">
+            </div>
+            <h3 class="inspire-card__title">Integrated Security</h3>
+            <p class="inspire-card__text">CCTV, alarms, access control, and perimeter protection solutions.</p>
+          </article>
+
+          <article class="inspire-card reveal">
+            <div class="inspire-card__media">
+              <img src="assets/img6.jpg" alt="Connected networks and infrastructure" width="300" height="300" loading="lazy" decoding="async">
+            </div>
+            <h3 class="inspire-card__title">Connected Networks</h3>
+            <p class="inspire-card__text">Networking infrastructure for homes, offices, and businesses.</p>
+          </article>
+
+          <article class="inspire-card reveal">
+            <div class="inspire-card__media">
+              <img src="assets/o.jpg" alt="Smart access with gates and intercoms" width="300" height="300" loading="lazy" decoding="async">
+            </div>
+            <h3 class="inspire-card__title">Smart Access</h3>
+            <p class="inspire-card__text">Automatic gates, intercoms, and biometric access control.</p>
+          </article>
+        </div>
+        <div style="text-align:center; margin-top:2rem;">
+          <a class="btn btn--primary" href="#contact">Find the Right Solution</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= HOW WE WORK ======================= -->
+    <section class="section atelier" aria-labelledby="atelierTitle">
+      <div class="container atelier__grid">
+        <div class="atelier__copy reveal">
+          <p class="eyebrow">How We Work</p>
+          <h2 class="section-title" id="atelierTitle">Your Project, Step by Step</h2>
+          <p>From consultation to installation, we follow a clear process to ensure your technology solution is properly planned and implemented.</p>
+          <ul class="atelier__list">
+            <li><strong>Consultation</strong> — Understand your property, needs, and objectives.</li>
+            <li><strong>Assessment</strong> — Identify appropriate systems and integration requirements.</li>
+            <li><strong>Installation &amp; Integration</strong> — Implement the agreed solution to fit your space.</li>
+            <li><strong>Support</strong> — Provide appropriate guidance and support for the installed systems.</li>
+          </ul>
+        </div>
+        <div class="editorial__media reveal">
+          <img src="assets/images (2).jpg" alt="Professional installation of technology systems" width="360" height="640" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= PROJECTS ======================= -->
+    <section class="section inspire" id="projects" aria-labelledby="inspireTitle">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Where Our Solutions Fit</p>
+          <h2 class="section-title" id="inspireTitle">Solutions for Every Space</h2>
+          <p class="section-lede">Practical technology solutions tailored for different property types.</p>
+        </header>
+
+        <div class="inspire__grid">
+          <article class="inspire-card reveal">
+            <div class="inspire-card__media">
+              <img src="assets/img3.jpg" alt="Smart home for residential property" width="447" height="447" loading="lazy" decoding="async">
+            </div>
+            <h3 class="inspire-card__title">Residential Homes</h3>
+            <p class="inspire-card__text">Home automation, CCTV, alarms and access control for modern living.</p>
+          </article>
+
+          <article class="inspire-card reveal">
+            <div class="inspire-card__media">
+              <img src="assets/img6.jpg" alt="Office and commercial building network infrastructure" width="300" height="300" loading="lazy" decoding="async">
+            </div>
+            <h3 class="inspire-card__title">Offices &amp; Commercial Buildings</h3>
+            <p class="inspire-card__text">Integrated security, networking and access control for business operations.</p>
+          </article>
+
+          <article class="inspire-card reveal">
+            <div class="inspire-card__media">
+              <img src="assets/images (2).jpg" alt="Retail premises security solutions" width="300" height="300" loading="lazy" decoding="async">
+            </div>
+            <h3 class="inspire-card__title">Retail Premises</h3>
+            <p class="inspire-card__text">CCTV surveillance, alarms and access management to protect your business.</p>
+          </article>
+
+          <article class="inspire-card reveal">
+            <div class="inspire-card__media">
+              <img src="assets/o.jpg" alt="Gated properties with automatic gates" width="300" height="300" loading="lazy" decoding="async">
+            </div>
+            <h3 class="inspire-card__title">Gated Properties</h3>
+            <p class="inspire-card__text">Automatic gates, intercoms, electric fences and perimeter protection.</p>
+          </article>
+
+          <article class="inspire-card reveal">
+            <div class="inspire-card__media">
+              <img src="assets/img2.jpg" alt="Business networks and IT infrastructure" width="300" height="300" loading="lazy" decoding="async">
+            </div>
+            <h3 class="inspire-card__title">Business Networks</h3>
+            <p class="inspire-card__text">Structured cabling, Wi-Fi and reliable connectivity solutions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= CONTACT & QUOTE ======================= -->
+    <section class="section visit" id="contact" aria-labelledby="visitTitle">
+      <div class="container visit__grid">
+        <div class="visit__copy reveal">
+          <p class="eyebrow">Get a Quote</p>
+          <h2 class="section-title" id="visitTitle">Ready to Get Connected?</h2>
+          <p id="visit">Tell us about your project and we'll help you find the right technology solution for your home or business.</p>
+
+          <ul class="visit__contacts">
+            <li>
+              <span class="visit__label">Business</span>
+              <span style="font-family:var(--font-display); font-size:1.25rem;">KAAS SOLUTIONS 🇺🇬</span>
+            </li>
+            <li>
+              <span class="visit__label">Service Area</span>
+              <span>Uganda</span>
+            </li>
+          </ul>
+
+          <div class="visit__actions">
+            <a class="btn btn--primary" href="#bookingForm">Request a Quote</a>
+          </div>
+        </div>
+
+        <form class="booking reveal" id="bookingForm" novalidate>
+          <div class="field">
+            <label class="field__label" for="bkName">Full Name *</label>
+            <input class="field__input" id="bkName" name="name" type="text" autocomplete="name" required>
+            <p class="field__error" id="bkNameError" hidden>Please tell us your name.</p>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label class="field__label" for="bkEmail">Email Address (optional)</label>
+              <input class="field__input" id="bkEmail" name="email" type="email" autocomplete="email">
+              <p class="field__error" id="bkEmailError" hidden>Please enter a valid email address.</p>
+            </div>
+            <div class="field">
+              <label class="field__label" for="bkPhone">Phone Number *</label>
+              <input class="field__input" id="bkPhone" name="phone" type="tel" autocomplete="tel" required>
+              <p class="field__error" id="bkPhoneError" hidden>Please enter your phone number.</p>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label class="field__label" for="bkService">Service Required *</label>
+              <select class="field__input" id="bkService" name="service" required>
+                <option value="">Choose a service</option>
+                <option>Home Automation</option>
+                <option>System Integration</option>
+                <option>CCTV &amp; Surveillance</option>
+                <option>Networking Solutions</option>
+                <option>Electric Fences</option>
+                <option>Automatic Gates &amp; Intercoms</option>
+                <option>Biometric Access Control</option>
+                <option>Burglar Alarms</option>
+                <option>Other</option>
+              </select>
+              <p class="field__error" id="bkServiceError" hidden>Please choose a service.</p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="bkProperty">Property Type (optional)</label>
+              <select class="field__input" id="bkProperty" name="property">
+                <option value="">Select property type</option>
+                <option>Residential Home</option>
+                <option>Office</option>
+                <option>Commercial Building</option>
+                <option>Retail Premises</option>
+                <option>Gated Property</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="bkNotes">Message *</label>
+            <textarea class="field__input field__input--area" id="bkNotes" name="notes" rows="4" placeholder="Tell us about your project requirements..." required></textarea>
+            <p class="field__error" id="bkNotesError" hidden>Please tell us about your requirements.</p>
+          </div>
+
+          <button class="btn btn--primary btn--block" type="submit">Request Quote via WhatsApp</button>
+          <p class="booking__hint">Your details open a pre-filled WhatsApp message — nothing is stored on this site.</p>
+          <p class="booking__status" id="bookingStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+   <!-- ======================= FOOTER ======================= -->
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand">
+        <a class="wordmark wordmark--footer" href="#home" aria-label="KAAS SOLUTIONS — home">
+          <img class="wordmark__mark wordmark__mark--lg" src="assets/logo.png" alt="KAAS SOLUTIONS logo" width="68" height="68" loading="lazy" decoding="async">
+          <span class="wordmark__texts">
+            <span class="wordmark__name">KAAS SOLUTIONS</span>
+            <span class="wordmark__tag">🇺🇬</span>
+          </span>
+        </a>
+        <p class="site-footer__statement">Smart Technology. Safer Spaces. Home automation, security systems, networking, and integrated technology solutions for homes and businesses across Uganda.</p>
+      </div>
+
+      <nav class="site-footer__col" aria-label="Quick Links">
+        <h3 class="site-footer__heading">Quick Links</h3>
+        <ul class="site-footer__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#solutions">Solutions</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav class="site-footer__col" aria-label="Our Services">
+        <h3 class="site-footer__heading">Services</h3>
+        <ul class="site-footer__links">
+          <li><a href="#services">Home Automation</a></li>
+          <li><a href="#services">System Integration</a></li>
+          <li><a href="#services">CCTV &amp; Surveillance</a></li>
+          <li><a href="#services">Networking Solutions</a></li>
+          <li><a href="#services">Electric Fences</a></li>
+          <li><a href="#services">Automatic Gates &amp; Intercoms</a></li>
+          <li><a href="#services">Biometric Access Control</a></li>
+          <li><a href="#services">Burglar Alarms</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__col">
+        <h3 class="site-footer__heading">Contact</h3>
+        <ul class="site-footer__links">
+          <li><a href="#contact">Request a Quote</a></li>
+          <li><span style="font-size:0.92rem; color:rgba(246,242,236,0.75);">Uganda</span></li>
+          <li><span style="font-size:0.92rem; color:rgba(246,242,236,0.75); font-style:italic;">WhatsApp number not configured</span></li>
+          <li><span style="font-size:0.8rem; color:rgba(246,242,236,0.55);">Set WA_NUMBER in js/main.js (bookingModule)</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-footer__base">
+      <div class="container site-footer__base-inner">
+        <p>&copy; <span id="year">2026</span> KAAS SOLUTIONS 🇺🇬. All rights reserved.</p>
+        <p class="site-footer__fine">Smart Technology. Safer Spaces. | Config: js/main.js (bookingModule.WA_NUMBER)</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================= FLOATING CONTACT ======================= -->
+  <div class="fab-stack" id="fabStack">
+    <div class="chat__panel" id="chatPanel" role="dialog" aria-label="KAAS chat assistant">
+      <div class="chat__head">
+        <span class="chat__avatar" aria-hidden="true">K</span>
+        <div class="chat__id">
+          <p class="chat__title">KAAS Assistant</p>
+          <p class="chat__sub">Ask about our solutions</p>
+        </div>
+        <button class="chat__close" id="chatClose" type="button" aria-label="Close chat">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+        </button>
+      </div>
+
+      <div class="chat__log" id="chatLog" role="log" aria-live="polite" aria-relevant="additions"></div>
+      <div class="chat__chips" id="chatChips"></div>
+
+      <form class="chat__form" id="chatForm">
+        <label class="visually-hidden" for="chatInput">Type your question</label>
+        <input class="chat__input" id="chatInput" type="text" placeholder="Type a message…" autocomplete="off" maxlength="200">
+        <button class="chat__send" type="submit" aria-label="Send message">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h13M12 6l6 6-6 6"></path></svg>
+        </button>
+      </form>
+    </div>
+
+    <div class="fab-stack__buttons">
+      <button class="fab fab--chat" id="chatToggle" type="button" aria-expanded="false" aria-controls="chatPanel" aria-label="Open chat assistant">
+        <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.5 0-2.9-.4-4.1-1.1L3 20l1.2-4.3A8.5 8.5 0 1 1 21 11.5z"></path>
+          <path d="M8.5 11h.01M12 11h.01M15.5 11h.01"></path>
+        </svg>
+      </button>
+
+      <a class="fab fab--wa" href="#contact" aria-label="Request a Quote">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+          <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.17c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.79.97-.14.16-.29.19-.54.06-.25-.12-1.05-.39-2-1.23a7.5 7.5 0 0 1-1.38-1.72c-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.44.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.16 0-.43.06-.65.31-.23.25-.86.84-.86 2.05s.88 2.38 1 2.54c.13.17 1.74 2.65 4.2 3.72.59.25 1.05.4 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.16-.48-.29z"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
